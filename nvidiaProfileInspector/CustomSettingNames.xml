@@ -252,7 +252,7 @@
 			<SettingMasks />
 		</CustomSetting>
 		<CustomSetting>
-			<UserfriendlyName>DLSS-NR - Enable Streamline DLL Override</UserfriendlyName>
+			<UserfriendlyName>DLSS-NR - Enable Streamline Override</UserfriendlyName>
 			<HexSettingID>0x10E41E05</HexSettingID>
 			<GroupName>05 - Upscaling and Frame Generation</GroupName>
 			<MinRequiredDriverVersion>610.47</MinRequiredDriverVersion>
