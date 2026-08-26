@@ -1898,7 +1898,7 @@ When any driver flags are set HDR will be applied via driver instead of through 
 			</SettingValues>
 		</CustomSetting>
 		<CustomSetting>
-			<UserfriendlyName>rBAR - Settings</UserfriendlyName>
+			<UserfriendlyName>rBAR - Enable v2</UserfriendlyName>
 			<HexSettingID>0x000BFA21</HexSettingID>
 			<MinRequiredDriverVersion>616.56</MinRequiredDriverVersion>
 			<Description>Disabled turns off all reBAR settings, Enabled uses all the reBAR settings, Auto uses driver recommended settings.</Description>
