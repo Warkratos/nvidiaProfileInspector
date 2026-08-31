@@ -191,7 +191,7 @@
 					<HexValue>0x00000005</HexValue>
 				</CustomSettingValue>
 				<CustomSettingValue>
-					<UserfriendlyName>Preset F (unused)</UserfriendlyName>
+					<UserfriendlyName>Preset F (Transformer Gen 2)</UserfriendlyName>
 					<HexValue>0x00000006</HexValue>
 				</CustomSettingValue>
 				<CustomSettingValue>
@@ -252,7 +252,7 @@
 			<SettingMasks />
 		</CustomSetting>
 		<CustomSetting>
-			<UserfriendlyName>DLSS-NR - Enable Streamline DLL Override</UserfriendlyName>
+			<UserfriendlyName>DLSS-NR - Enable Streamline Override</UserfriendlyName>
 			<HexSettingID>0x10E41E05</HexSettingID>
 			<GroupName>05 - Upscaling and Frame Generation</GroupName>
 			<MinRequiredDriverVersion>610.47</MinRequiredDriverVersion>
@@ -343,6 +343,23 @@
 				<CustomSettingValue>
 					<UserfriendlyName>Preset O (unused)</UserfriendlyName>
 					<HexValue>0x0000000F</HexValue>
+				</CustomSettingValue>
+			</SettingValues>
+			<SettingMasks />
+		</CustomSetting>
+		<CustomSetting>
+			<UserfriendlyName>DLSS - Enable Streamline Override</UserfriendlyName>
+			<HexSettingID>0x10E41E06</HexSettingID>
+			<GroupName>05 - Upscaling and Frame Generation</GroupName>
+			<MinRequiredDriverVersion>616.56</MinRequiredDriverVersion>
+			<SettingValues>
+				<CustomSettingValue>
+					<UserfriendlyName>Off</UserfriendlyName>
+					<HexValue>0x00000000</HexValue>
+				</CustomSettingValue>
+				<CustomSettingValue>
+					<UserfriendlyName>On</UserfriendlyName>
+					<HexValue>0x00000001</HexValue>
 				</CustomSettingValue>
 			</SettingValues>
 			<SettingMasks />
@@ -1877,6 +1894,28 @@ When any driver flags are set HDR will be applied via driver instead of through 
 				<CustomSettingValue>
 					<UserfriendlyName>Enabled</UserfriendlyName>
 					<HexValue>0x00000001</HexValue>
+				</CustomSettingValue>
+			</SettingValues>
+		</CustomSetting>
+		<CustomSetting>
+			<UserfriendlyName>rBAR - Enable v2</UserfriendlyName>
+			<HexSettingID>0x000BFA21</HexSettingID>
+			<MinRequiredDriverVersion>616.56</MinRequiredDriverVersion>
+			<Description>Disabled turns off all reBAR settings, Enabled uses all the reBAR settings, Auto uses driver recommended settings.</Description>
+			<GroupName>07 - System, Memory and Compute</GroupName>
+			<AlternateNames>ReBAR - Enable, Resizable Bar - Enable</AlternateNames>
+			<SettingValues>
+				<CustomSettingValue>
+					<UserfriendlyName>Disabled</UserfriendlyName>
+					<HexValue>0x00000000</HexValue>
+				</CustomSettingValue>
+				<CustomSettingValue>
+					<UserfriendlyName>Auto</UserfriendlyName>
+					<HexValue>0x00000001</HexValue>
+				</CustomSettingValue>
+				<CustomSettingValue>
+					<UserfriendlyName>Enabled</UserfriendlyName>
+					<HexValue>0x00000002</HexValue>
 				</CustomSettingValue>
 			</SettingValues>
 		</CustomSetting>
